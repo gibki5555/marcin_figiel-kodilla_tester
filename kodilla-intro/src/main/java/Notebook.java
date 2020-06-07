@@ -19,14 +19,14 @@ public class Notebook {
 
     public void checkWeight() {
         if (this.weight < 600) {
-            System.out.println("urządzenie jest lekkie");
+            System.out.println("urządzenie jest lekkie"); /*TODO: kdrzazga - pls translate to English*/
         } else if (this.weight >= 600 && this.weight <= 1000) {//dodać inne wartości i inne komunikaty
             System.out.println("urządzenie jest niezbyt ciężkie");
         } else
             System.out.println("To urządzenie jest bardzo ciężkie");
     }
 
-    public void checkYearAndPrice() {
+    public void checkYearAndPrice() { /*TODO: Review kdrzazga method not used - pls use it in FirstClass*/
         if (this.price > 1500 && this.year > 2018) {
             System.out.println("Nowy i drogi.");
         } else if (this.price >= 600 && this.year <= 1000) {
