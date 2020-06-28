@@ -4,6 +4,7 @@ public class Person {
     String name;
     double age;
     double height;
+    protected int weight;
 
     public Person(double age, double height, String name) {
         this.age = age;

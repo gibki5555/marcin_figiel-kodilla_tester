@@ -8,7 +8,7 @@ public class CalcAplication {
 
         double p = Calculator.PI;
         System.out.println("The value of a pi constant is equal to " + p);
-        Calculator calculator2 = new calculator();
+        Calculator calculator2 = new Calculator();
         System.out.println(calculator2.counter);
     }
 }
