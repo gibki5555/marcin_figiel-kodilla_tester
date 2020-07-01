@@ -19,8 +19,8 @@ public class Notebook {
 
     public void checkWeight() {
         if (this.weight < 600) {
-            System.out.println("its light"); /*TODO: kdrzazga - pls translate to English*/
-        } else if (this.weight >= 600 && this.weight <= 1000) {//dodać inne wartości i inne komunikaty
+            System.out.println("its light");
+        } else if (this.weight >= 600 && this.weight <= 1000) {
             System.out.println("its hight");
         } else
             System.out.println("its very hight");
@@ -28,10 +28,10 @@ public class Notebook {
 
     public void checkYearAndPrice() {
         if (this.price > 1500 && this.year > 2018) {
-            System.out.println("Nowy i drogi.");
+            System.out.println("New and expensive.");
         } else if (this.price >= 600 && this.year <= 1000) {
             System.out.println("Bla bla");
         } else
-            System.out.println("Nic");
+            System.out.println("Nothing");
     }
 }
