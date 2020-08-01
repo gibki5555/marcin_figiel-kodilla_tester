@@ -22,7 +22,7 @@ public class ComplexMapExample {
 
         System.out.println(school.get(john));
 
-        for(Map.Entry<Student, Grades> StudentEntry : school.entrySet())
+        for(Map.Entry<Student, Grades> studentEntry : school.entrySet())
             System.out.println(studentEntry.getKey().getFirstname() + ", average: " + studentEntry.getValue().getAverage());
 
     }

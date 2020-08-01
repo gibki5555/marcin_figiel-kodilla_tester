@@ -9,16 +9,19 @@ public class Grades {
     public Grades(Double... grades) {
         for (double grade : grades)
             this.grades.add(grade);
-
-
-        public double getAverage () {
-            double sum = 0.0;
-            for (double grade : grades)
-                sum += grade;
-            return sum / grades.size();
-        }
     }
-    @Override public String toString(){
-        return "Grades: " + bartGrades.toString();
 
+
+    public double getAverage() {
+        double sum = 0.0;
+        for (double grade : grades)
+            sum += grade;
+        return sum / grades.size();
+    }
+
+    @Override
+    public String toString() {
+        return "Grades: " + grades.toString();
+
+    }
 }

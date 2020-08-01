@@ -19,17 +19,17 @@ public class Student {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
-        return name.equals(student.name) &&
+        return firstname.equals(student.firstname) &&
                 lastname.equals(student.lastname);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, lastname);
+        return Objects.hash(firstname, lastname);
     }
 
     public Student(String name, String lastname) {
-        this.name = name;
+        this.firstname = name;
         this.lastname = lastname;
 
     }
