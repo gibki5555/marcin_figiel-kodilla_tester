@@ -12,4 +12,22 @@ public class User {
         this.numberOfPosts = numberOfPosts;
         this.group = group;
     }
+
+    public String getUsername() {
+        return this.username;
+
+
+    }
+
+    public String getGroup() {
+        return group;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public int getNumberOfPosts() {
+        return numberOfPosts;
+    }
 }

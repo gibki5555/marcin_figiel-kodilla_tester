@@ -14,4 +14,11 @@ public class UserRepository {
         users.add(new User("MIke Ehrnmantraut", 57 , 0 , "Security"));
         return users;
     }
+    public static List<User> getUserList2() {
+        List<User> users = new ArrayList<>();
+        users.add(new User(null, 50, 7, "Chemists"));
+        users.add(new User("Walter White", 50, 7, "Chemists"));
+        users.add(null);
+        return users;
+    }
 }
